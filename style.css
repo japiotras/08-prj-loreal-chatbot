@@ -7,7 +7,7 @@
 
 /* —— body + fonts —— */
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #333;
   display: flex;
   justify-content: center;
@@ -18,10 +18,17 @@ body {
   max-width: 900px;
 }
 
+.site-logo {
+  display: block;
+  margin: 30px auto 0px;
+  max-width: 200px;
+}
+
 /* header */
 .site-header {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
+  font-family: "Halesworth", serif;
 }
 
 .site-title {
@@ -37,7 +44,7 @@ body {
 
 .chat-window {
   height: 360px;
-  border: 1px solid #000;
+  border: 1px solid #E3A535;
   padding: 20px;
   font-size: 18px;
   line-height: 1.5;
@@ -70,7 +77,7 @@ body {
 .chat-form input {
   flex: 1;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #E3A535;
   font-size: 18px;
 }
 
@@ -81,7 +88,7 @@ body {
 
 .chat-form button {
   font-size: 18px;
-  background: #000;
+  background: #E3A535;
   color: #fff;
   border: none;
   padding: 12px;
